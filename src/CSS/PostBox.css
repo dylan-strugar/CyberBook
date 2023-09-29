@@ -1,0 +1,122 @@
+/* POST BOX STYLE */
+#BoxParent {
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 30px;
+    outline: 2px solid #ff124f;
+  }
+  
+  #PostBox {
+    outline: 2px solid #ff124f;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  
+/* info box */ 
+
+#InfoBox {
+  font-family: 'Rajdhani', sans-serif;
+  display: flex;
+  color: #ff124f;
+}
+
+#NameAndTime {
+ margin-left: 10px;
+}
+
+#NameAndTime button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+ }
+
+#InfoBox img {
+  outline: 1px solid #ff124f;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#InfoBox button {
+  border: none; /* Removes the button border */
+  outline: none; /* Removes the button outline when focused */
+  background: none; /* Removes any background color */
+  padding: 0; /* Removes any default padding */
+  margin: 0; /* Removes any default margin */
+  /* Optionally, you can set other styles such as text color and text decoration */
+  color: inherit; /* Inherit the text color from the parent element */
+  /* You can also remove any cursor style if needed */
+  margin-right: 80px;
+}
+
+#InfoBox h2 {
+  margin: auto auto;
+}
+
+
+/* comment box */ 
+
+#PostContentBox {
+  margin-left: 10px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #ff124f;
+}
+
+#PostContentBox h2 {
+  text-align: right;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+/* Like box */
+
+#LikesBox {
+  color: #fe75fe;
+  display: flex;
+  justify-content: space-around;
+}
+
+#LikesBox button {
+  border: none;
+  outline: none;
+  background: none;
+  color: inherit;
+}
+
+/* INTERACTION BOX */
+
+#InteractionBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  outline: 2px solid #ff124f;
+  max-width: 500px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#commentButton:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#LikeButton {
+  border: none; /* Removes the button border */
+  outline: none; /* Removes the button outline when focused */
+  background: none; /* Removes any background color */
+  color: inherit; /* Inherit the text color from the parent element */
+}
+
+#LikeButton img{
+  background-color: none;
+  height: 50px;
+  width: 50px;
+
+}

@@ -1,0 +1,45 @@
+
+/* Create Post box */
+
+#CreatePost {
+    display: flex;
+    margin-top: 50px;
+    outline: 2px solid #ff124f;
+    margin: auto;
+    max-width: 500px;
+    height: 150px;
+    padding: 30px;
+    align-items: center;
+  }
+  
+  
+  #PostInputBox {
+    margin: 5px;
+    width: 500px;
+    height: 80px;
+    background: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: #ff124f;
+  }
+  
+  #CreatePost button {
+    margin: 10px 5px 5px 5px;
+    border: none; 
+    outline: none; 
+    background: none;
+    padding: 0; 
+    margin: 10px; 
+    color: #ff124f; 
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  #CreatePost button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  
+  
+  

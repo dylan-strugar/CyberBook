@@ -1,0 +1,11 @@
+/* POST FEED BOX */
+
+#PostFeed {
+    background-color: #39016e;
+    outline: 2px solid #ff124f;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }

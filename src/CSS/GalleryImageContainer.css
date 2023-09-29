@@ -1,0 +1,21 @@
+
+#imageButton {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+#GalleryImageContainer {
+    width: 100%;
+    height: 100%;
+
+}
+
+#singleImage {
+    height: 100%;
+    max-width: 80%;
+}
